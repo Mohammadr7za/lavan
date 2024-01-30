@@ -63,7 +63,7 @@ const Notifications = () => {
         }}
       >
         <Stack direction="row" py={2} px={4} justifyContent="space-between" alignItems="center">
-          <Typography variant="h6">Notifications</Typography>
+          <Typography variant="h6">اعلانات</Typography>
           <Chip label="5 new" color="primary" size="small" />
         </Stack>
         <Scrollbar sx={{ height: '385px' }}>

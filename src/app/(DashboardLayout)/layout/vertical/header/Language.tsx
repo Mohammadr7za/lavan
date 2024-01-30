@@ -14,20 +14,9 @@ const Languages = [
     value: 'en',
   },
   {
-    flagname: '中国人 (Chinese)',
+    flagname: 'فارسی (IR)',
     icon: "/images/flag/icon-flag-cn.svg",
-    value: 'ch',
-  },
-  {
-    flagname: 'français (French)',
-    icon: "/images/flag/icon-flag-fr.svg",
-    value: 'fr',
-  },
-
-  {
-    flagname: 'عربي (Arabic)',
-    icon: "/images/flag/icon-flag-sa.svg",
-    value: 'ar',
+    value: 'fa',
   },
 ];
 
@@ -46,7 +35,7 @@ const Language = () => {
     setAnchorEl(null);
   };
   useEffect(() => {
-    i18n.changeLanguage(customizer.isLanguage);
+    // i18n.changeLanguage(customizer.isLanguage);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 

@@ -1,5 +1,5 @@
 import { Box, Typography, Button } from '@mui/material';
-import img1 from 'public/images/backgrounds/rocket.png';
+import img1 from '/public/images/backgrounds/rocket.png';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -15,7 +15,7 @@ export const Upgrade = () => {
                 <Box>
                     <Typography variant="h6" mb={1}>Unlimited Access</Typography>
                     <Button color="primary" target="_blank" disableElevation component={Link} href="https://adminmart.com/product/modernize-next-js-admin-dashboard" variant="contained" aria-label="logout" size="small">
-                        Upgrade
+                        asdasd
                     </Button>
                 </Box>
                 <Box mt="-35px">

@@ -1,12 +1,12 @@
 import Image from "next/image";
 import { Box, CardContent, Grid, Typography } from "@mui/material";
 
-import icon1 from "public/images/svgs/icon-connect.svg";
-import icon2 from "public/images/svgs/icon-user-male.svg";
-import icon3 from "public/images/svgs/icon-briefcase.svg";
-import icon4 from "public/images/svgs/icon-mailbox.svg";
-import icon5 from "public/images/svgs/icon-favorites.svg";
-import icon6 from "public/images/svgs/icon-speech-bubble.svg";
+import icon1 from "/public/images/svgs/icon-connect.svg";
+import icon2 from "/public/images/svgs/icon-user-male.svg";
+import icon3 from "/public/images/svgs/icon-briefcase.svg";
+import icon4 from "/public/images/svgs/icon-mailbox.svg";
+import icon5 from "/public/images/svgs/icon-favorites.svg";
+import icon6 from "/public/images/svgs/icon-speech-bubble.svg";
 
 const topcards = [
   {

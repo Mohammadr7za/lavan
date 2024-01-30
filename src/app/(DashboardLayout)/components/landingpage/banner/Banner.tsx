@@ -9,8 +9,8 @@ import {
   Theme,
 } from "@mui/material";
 import BannerContent from "./BannerContent";
-import bannerbgImg1 from "public/images/landingpage/bannerimg1.svg";
-import bannerbgImg2 from "public/images/landingpage/bannerimg2.svg";
+import bannerbgImg1 from "/public/images/landingpage/bannerimg1.svg";
+import bannerbgImg2 from "/public/images/landingpage/bannerimg2.svg";
 import Image from "next/image";
 
 const Banner = () => {

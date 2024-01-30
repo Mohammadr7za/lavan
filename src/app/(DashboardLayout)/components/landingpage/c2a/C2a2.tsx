@@ -8,7 +8,7 @@ import {
   Container,
   Stack,
 } from "@mui/material";
-import c2aImg from "public/images/landingpage/background/c2a.png";
+import c2aImg from "/public/images/landingpage/background/c2a.png";
 import Image from "next/image";
 
 const StyledButton = styled(Button)(({ theme }) => ({

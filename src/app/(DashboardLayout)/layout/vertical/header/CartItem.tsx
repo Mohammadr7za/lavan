@@ -9,7 +9,7 @@ import {
 import Link from "next/link";
 import { IconMinus, IconPlus } from "@tabler/icons-react";
 import { useSelector, useDispatch } from "@/store/hooks";
-import emptyCart from "public/images/products/empty-shopping-cart.svg";
+import emptyCart from "/public/images/products/empty-shopping-cart.svg";
 import {
   increment,
   decrement,

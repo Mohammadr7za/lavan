@@ -12,7 +12,7 @@ import {
 } from '@mui/material';
 import { useSelector, useDispatch } from '@/store/hooks';
 import { addContact } from '@/store/apps/contacts/ContactSlice';
-import user1 from 'public/images/profile/user-1.jpg';
+import user1 from '/public/images/profile/user-1.jpg';
 
 const ContactAdd = () => {
   const dispatch = useDispatch();

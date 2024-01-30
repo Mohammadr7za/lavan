@@ -9,22 +9,22 @@ import {
 } from "@mui/material";
 
 // images
-import mainDemo from "public/images/landingpage/demos/demo-main.jpg";
-import darkDemo from "public/images/landingpage/demos/demo-dark.jpg";
-import horizontalDemo from "public/images/landingpage/demos/demo-horizontal.jpg";
-import rtlDemo from "public/images/landingpage/demos/demo-rtl.jpg";
+import mainDemo from "/public/images/landingpage/demos/demo-main.jpg";
+import darkDemo from "/public/images/landingpage/demos/demo-dark.jpg";
+import horizontalDemo from "/public/images/landingpage/demos/demo-horizontal.jpg";
+import rtlDemo from "/public/images/landingpage/demos/demo-rtl.jpg";
 
-import app1 from "public/images/landingpage/apps/app-calendar.jpg";
-import app2 from "public/images/landingpage/apps/app-chat.jpg";
-import app3 from "public/images/landingpage/apps/app-contact.jpg";
-import app4 from "public/images/landingpage/apps/app-email.jpg";
-import app5 from "public/images/landingpage/apps/app-note.jpg";
-import app6 from "public/images/landingpage/apps/app-user-profile.jpg";
-import app7 from "public/images/landingpage/apps/app-blog.jpg";
-import app8 from "public/images/landingpage/apps/app-ticket.jpg";
-import app9 from "public/images/landingpage/apps/app-ecommerce-shop.jpg";
-import app11 from "public/images/landingpage/apps/app-ecommerce-checkout.jpg";
-import app12 from "public/images/landingpage/apps/app-ecommerce-list.jpg";
+import app1 from "/public/images/landingpage/apps/app-calendar.jpg";
+import app2 from "/public/images/landingpage/apps/app-chat.jpg";
+import app3 from "/public/images/landingpage/apps/app-contact.jpg";
+import app4 from "/public/images/landingpage/apps/app-email.jpg";
+import app5 from "/public/images/landingpage/apps/app-note.jpg";
+import app6 from "/public/images/landingpage/apps/app-user-profile.jpg";
+import app7 from "/public/images/landingpage/apps/app-blog.jpg";
+import app8 from "/public/images/landingpage/apps/app-ticket.jpg";
+import app9 from "/public/images/landingpage/apps/app-ecommerce-shop.jpg";
+import app11 from "/public/images/landingpage/apps/app-ecommerce-checkout.jpg";
+import app12 from "/public/images/landingpage/apps/app-ecommerce-list.jpg";
 
 import DemoTitle from "./DemoTitle";
 import Image from "next/image";

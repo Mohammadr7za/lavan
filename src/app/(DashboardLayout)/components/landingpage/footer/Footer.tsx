@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, Link, Typography, Container } from '@mui/material';
-import logoIcon from 'public/images/logos/logoIcon.svg';
+import logoIcon from '/public/images/logos/logoIcon.svg';
 import Image from 'next/image';
 
 const Footer = () => {

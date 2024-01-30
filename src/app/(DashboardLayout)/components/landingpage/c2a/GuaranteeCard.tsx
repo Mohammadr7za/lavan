@@ -1,7 +1,7 @@
 import React from 'react';
 import { Typography, Box, Button, styled, CardContent, Stack } from '@mui/material';
 import BlankCard from '../../shared/BlankCard';
-import badgeImg from 'public/images/landingpage/shape/badge.svg';
+import badgeImg from '/public/images/landingpage/shape/badge.svg';
 import Image from 'next/image';
 
 const ImgCard = styled(BlankCard)(() => ({

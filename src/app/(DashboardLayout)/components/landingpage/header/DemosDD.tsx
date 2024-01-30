@@ -2,16 +2,16 @@ import React from "react";
 import { Box, Typography, Avatar, Stack, styled, Button } from "@mui/material";
 import NextLink from "next/link";
 
-import mainDemo from "public/images/landingpage/demos/demo-main.jpg";
-import darkDemo from "public/images/landingpage/demos/demo-dark.jpg";
-import horizontalDemo from "public/images/landingpage/demos/demo-horizontal.jpg";
-import rtlDemo from "public/images/landingpage/demos/demo-rtl.jpg";
+import mainDemo from "/public/images/landingpage/demos/demo-main.jpg";
+import darkDemo from "/public/images/landingpage/demos/demo-dark.jpg";
+import horizontalDemo from "/public/images/landingpage/demos/demo-horizontal.jpg";
+import rtlDemo from "/public/images/landingpage/demos/demo-rtl.jpg";
 
-import app1 from "public/images/landingpage/apps/app-calendar.jpg";
-import app2 from "public/images/landingpage/apps/app-chat.jpg";
-import app3 from "public/images/landingpage/apps/app-contact.jpg";
-import app4 from "public/images/landingpage/apps/app-email.jpg";
-import app5 from "public/images/landingpage/apps/app-note.jpg";
+import app1 from "/public/images/landingpage/apps/app-calendar.jpg";
+import app2 from "/public/images/landingpage/apps/app-chat.jpg";
+import app3 from "/public/images/landingpage/apps/app-contact.jpg";
+import app4 from "/public/images/landingpage/apps/app-email.jpg";
+import app5 from "/public/images/landingpage/apps/app-note.jpg";
 import Image from "next/image";
 
 interface DemoTypes {

@@ -15,7 +15,7 @@ import NextTopLoader from 'nextjs-toploader';
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import "@/app/api/index";
-import "@/utils/i18n";
+// import "@/utils/i18n";
 import createEmotionCache from "@/utils/createEmotionCache";
 
 import "react-quill/dist/quill.snow.css";
@@ -58,7 +58,7 @@ export default function RootLayout({
     setTimeout(() => setLoading(true), 3000);
   }, []);
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="fa" suppressHydrationWarning>
       <body>
         <Provider store={store}>
           {loading ? (

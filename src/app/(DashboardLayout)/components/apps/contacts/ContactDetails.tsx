@@ -22,7 +22,7 @@ import BlankCard from '../../shared/BlankCard';
 import { ContactType } from '../../../types/apps/contact';
 import { IconPencil, IconStar, IconTrash, IconDeviceFloppy } from '@tabler/icons-react';
 import Scrollbar from '../../../components/custom-scroll/Scrollbar';
-import emailIcon from 'public/images/breadcrumb/emailSv.png';
+import emailIcon from '/public/images/breadcrumb/emailSv.png';
 import Image from 'next/image';
 
 const ContactDetails = () => {

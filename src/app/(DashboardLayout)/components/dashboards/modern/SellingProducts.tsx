@@ -8,7 +8,7 @@ import {
   LinearProgress,
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
-import SavingsImg from "public/images/backgrounds/piggy.png";
+import SavingsImg from "/public/images/backgrounds/piggy.png";
 import Image from "next/image";
 
 const sells: any = [
