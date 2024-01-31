@@ -20,10 +20,10 @@ const validationSchema = yup.object({
     .string()
     .min(8, 'Password should be of minimum 8 characters length')
     .required('Password is required'),
-  changepassword: yup.string().when('password', {
-    is: (val: any) => (val && val.length > 0 ? true : false),
-    then: yup.string().oneOf([yup.ref('password')], 'Both password need to be the same'),
-  }),
+  // changepassword: yup.string().when('password', {
+  //   is: (val: any) => (val && val.length > 0 ? true : false),
+  //   then: yup.string().oneOf([yup.ref('password')], 'Both password need to be the same'),
+  // }),
 });
 
 const FVRegister = () => {

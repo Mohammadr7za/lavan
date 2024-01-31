@@ -13,7 +13,7 @@ import {
   ListItemButton,
 } from '@mui/material';
 import { useSelector } from '@/store/hooks';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import { AppState } from '@/store/store';
 
 type NavGroup = {
@@ -45,7 +45,7 @@ export default function NavItem  ({ item, level, pathDirect, hideMenu, onClick }
   const customizer = useSelector((state: AppState) => state.customizer);
   const Icon = item?.icon;
   const theme = useTheme();
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   const itemIcon =
     level > 1 ? <Icon stroke={1.5} size="1rem" /> : <Icon stroke={1.5} size="1.3rem" />;
 
@@ -108,7 +108,8 @@ export default function NavItem  ({ item, level, pathDirect, hideMenu, onClick }
             {itemIcon}
           </ListItemIcon>
           <ListItemText>
-            {hideMenu ? '' : <>{t(`${item?.title}`)}</>}
+            {/*{hideMenu ? '' : <>{t(`${item?.title}`)}</>}*/}
+            {hideMenu ? '' : <>{`${item?.title}`}</>}
             <br />
             {item?.subtitle ? (
               <Typography variant="caption">{hideMenu ? '' : item?.subtitle}</Typography>

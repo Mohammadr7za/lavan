@@ -1,17 +1,13 @@
 "use client";
 import React from "react";
-import { ThemeProvider } from "@mui/material/styles";
+import {ThemeProvider} from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
 import RTL from "@/app/(DashboardLayout)/layout/shared/customizer/RTL";
-import { ThemeSettings } from "@/utils/theme/Theme";
-import { store } from "@/store/store";
-import { useSelector } from "@/store/hooks";
-import { AppState } from "@/store/store";
-import { Provider } from "react-redux";
+import {ThemeSettings} from "@/utils/theme/Theme";
+import {AppState, store} from "@/store/store";
+import {useSelector} from "@/store/hooks";
+import {Provider} from "react-redux";
 import NextTopLoader from 'nextjs-toploader';
-
-
-// import NextNProgress from "nextjs-progressbar";
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import "@/app/api/index";
@@ -22,7 +18,6 @@ import "react-quill/dist/quill.snow.css";
 // import "@/app/(DashboardLayout)/forms/form-quill/Quill.css";
 // import "@/app/(DashboardLayout)/components/landingpage/testimonial/testimonial.css";
 // import "@/app/(DashboardLayout)/components/landingpage/demo-slider/demo-slider.css";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

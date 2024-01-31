@@ -1,14 +1,12 @@
-import { IconButton, Box, AppBar, useMediaQuery, Toolbar, styled, Stack } from '@mui/material';
-import { useSelector, useDispatch } from '@/store/hooks';
-import { toggleSidebar, toggleMobileSidebar } from '@/store/customizer/CustomizerSlice';
-import { IconMenu2 } from '@tabler/icons-react';
+import {AppBar, Box, IconButton, Stack, styled, Toolbar, useMediaQuery} from '@mui/material';
+import {useDispatch, useSelector} from '@/store/hooks';
+import {toggleMobileSidebar, toggleSidebar} from '@/store/customizer/CustomizerSlice';
+import {IconMenu2} from '@tabler/icons-react';
 import Notifications from './Notification';
 import Profile from './Profile';
-import Cart from './Cart';
 import Search from './Search';
-import Language from './Language';
-import { AppState } from '@/store/store';
-import Navigation from './Navigation';
+// import Language from './Language';
+import {AppState} from '@/store/store';
 import MobileRightSidebar from './MobileRightSidebar';
 
 const Header = () => {
@@ -51,11 +49,6 @@ const Header = () => {
         {/* Search Dropdown */}
         {/* ------------------------------------------- */}
         <Search />
-        {lgUp ? (
-          <>
-            <Navigation />
-          </>
-        ) : null}
 
         <Box flexGrow={1} />
         <Stack spacing={1} direction="row" alignItems="center">

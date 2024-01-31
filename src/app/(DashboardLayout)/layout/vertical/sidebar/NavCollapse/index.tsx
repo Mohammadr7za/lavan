@@ -19,7 +19,7 @@ import NavItem from '../NavItem';
 
 // plugins
 import { IconChevronDown, IconChevronUp } from '@tabler/icons-react';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import { AppState } from '@/store/store';
 
 type NavGroupProps = {
@@ -53,7 +53,7 @@ export default  function NavCollapse ({
   const Icon = menu?.icon;
   const theme = useTheme();
   const pathname  = usePathname();
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   const [open, setOpen] = useState(false);
   const menuIcon =
     level > 1 ? <Icon stroke={1.5} size="1rem" /> : <Icon stroke={1.5} size="1.3rem" />;
@@ -137,7 +137,8 @@ export default  function NavCollapse ({
         >
           {menuIcon}
         </ListItemIcon>
-        <ListItemText color="inherit">{hideMenu ? '' : <>{t(`${menu.title}`)}</>}</ListItemText>
+        {/*<ListItemText color="inherit">{hideMenu ? '' : <>{t(`${menu.title}`)}</>}</ListItemText>*/}
+        <ListItemText color="inherit">{hideMenu ? '' : <>{`${menu.title}`}</>}</ListItemText>
         {!open ? <IconChevronDown size="1rem" /> : <IconChevronUp size="1rem" />}
       </ListItemStyled>
       <Collapse in={open} timeout="auto">

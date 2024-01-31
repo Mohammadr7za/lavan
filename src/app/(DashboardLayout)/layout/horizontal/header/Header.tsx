@@ -1,26 +1,15 @@
 import * as React from 'react';
-import {
-  IconButton,
-  Box,
-  AppBar,
-  useMediaQuery,
-  Toolbar,
-  styled,
-  Stack,
-  Theme,
-} from '@mui/material';
+import {AppBar, Box, IconButton, Stack, styled, Theme, Toolbar, useMediaQuery,} from '@mui/material';
 
-import { useSelector, useDispatch } from '@/store/hooks';
-import { toggleMobileSidebar } from '@/store/customizer/CustomizerSlice';
-import { IconMenu2 } from '@tabler/icons-react';
+import {useDispatch, useSelector} from '@/store/hooks';
+import {toggleMobileSidebar} from '@/store/customizer/CustomizerSlice';
+import {IconMenu2} from '@tabler/icons-react';
 import Notifications from '../../vertical/header/Notification';
-import Cart from '../../vertical/header/Cart';
 import Profile from '../../vertical/header/Profile';
 import Search from '../../vertical/header/Search';
-import Language from '../../vertical/header/Language';
-import Navigation from '../../vertical/header/Navigation';
+// import Language from '../../vertical/header/Language';
 import Logo from '../../shared/logo/Logo';
-import { AppState } from '@/store/store';
+import {AppState} from '@/store/store';
 
 const Header = () => {
   const lgDown = useMediaQuery((theme: Theme) => theme.breakpoints.down('lg'));
@@ -69,11 +58,6 @@ const Header = () => {
         {/* Search Dropdown */}
         {/* ------------------------------------------- */}
         <Search />
-         {lgUp ? (
-          <>
-            <Navigation />
-          </>
-        ) : null}
         <Box flexGrow={1} />
         <Stack spacing={1} direction="row" alignItems="center">
           {/*<Language />*/}
