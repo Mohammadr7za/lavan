@@ -12,17 +12,10 @@ import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import "@/app/api/index";
 // import "@/utils/i18n";
-import createEmotionCache from "@/utils/createEmotionCache";
-
-import "react-quill/dist/quill.snow.css";
-// import "@/app/(DashboardLayout)/forms/form-quill/Quill.css";
-// import "@/app/(DashboardLayout)/components/landingpage/testimonial/testimonial.css";
-// import "@/app/(DashboardLayout)/components/landingpage/demo-slider/demo-slider.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import createEmotionCache from "@/utils/createEmotionCache";
 
 // Client-side cache, shared for the whole session of the user in the browser.
-const clientSideEmotionCache = createEmotionCache();
+// const clientSideEmotionCache = createEmotionCache();
 
 export const MyApp = ({ children }: { children: React.ReactNode }) => {
   const theme = ThemeSettings();

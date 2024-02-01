@@ -33,7 +33,7 @@ const Menuitems: MenuitemsType[] = [
 
   {
     id: uniqueId(),
-    title: "Modern",
+    title: "مدرن",
     icon: IconAperture,
     href: "/",
     chip: "New",
@@ -45,7 +45,7 @@ const Menuitems: MenuitemsType[] = [
   },
   {
     id: uniqueId(),
-    title: "Notes",
+    title: "نوت ها",
     icon: IconNotes,
     href: "/apps/notes",
   },

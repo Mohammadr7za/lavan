@@ -1,14 +1,7 @@
-import { Plus_Jakarta_Sans } from "next/font/google";
-
-export const plus = Plus_Jakarta_Sans({
-  weight: ["300", "400", "500", "600", "700"],
-  subsets: ["latin"],
-  display: "swap",
-  fallback: ["Helvetica", "Arial", "sans-serif"],
-});
+import {iranSans} from "@/utils/theme/localFonts.fonts";
 
 const typography: any = {
-  fontFamily: plus.style.fontFamily,
+  fontFamily: iranSans.style.fontFamily,
   h1: {
     fontWeight: 600,
     fontSize: '2.25rem',

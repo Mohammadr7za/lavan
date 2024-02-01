@@ -11,6 +11,7 @@ import { LightThemeColors } from './LightThemeColors';
 import { baseDarkTheme, baselightTheme } from './DefaultColors';
 import * as locales from '@mui/material/locale';
 
+
 export const BuildTheme = (config: any = {}) => {
   const themeOptions = LightThemeColors.find((theme) => theme.name === config.theme);
   const darkthemeOptions = DarkThemeColors.find((theme) => theme.name === config.theme);
@@ -48,7 +49,6 @@ const ThemeSettings = () => {
   useEffect(() => {
     document.dir = activDir;
   }, [activDir]);
-
   return theme;
 };
 

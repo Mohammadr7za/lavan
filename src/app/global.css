@@ -1,0 +1,9 @@
+@import "asstes/styles/fonts.scss";
+
+* {
+    font-family: iranSans, FontsFree-Net-ir_sans, sans-serif, Arial !important;
+}
+
+body {
+    font-family: var(--font-iranSans);
+}
