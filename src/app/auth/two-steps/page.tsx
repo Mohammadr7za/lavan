@@ -1,8 +1,8 @@
 "use client";
 import { Grid, Box, Card, Typography } from '@mui/material';
-import Logo from '@/app/(DashboardLayout)/layout/shared/logo/Logo';
-import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
-import AuthTwoSteps from '../../authForms/AuthTwoSteps';
+import Logo from '@app/(DashboardLayout)/layout/shared/logo/Logo';
+import PageContainer from '@app/(DashboardLayout)/components/container/PageContainer';
+import AuthTwoSteps from '../authForms/AuthTwoSteps';
 
 export default function TwoSteps2() {
 return (

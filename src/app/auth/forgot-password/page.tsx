@@ -1,8 +1,8 @@
 "use client";
 import { Grid, Box, Card, Typography } from '@mui/material';
-import Logo from '@/app/(DashboardLayout)/layout/shared/logo/Logo';
-import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
-import AuthForgotPassword from '../../authForms/AuthForgotPassword';
+import Logo from '@app/(DashboardLayout)/layout/shared/logo/Logo';
+import PageContainer from '@app/(DashboardLayout)/components/container/PageContainer';
+import AuthForgotPassword from '../authForms/AuthForgotPassword';
 
 export default function ForgotPassword2(){
   return (

@@ -1,8 +1,7 @@
-import { FC } from "react";
-import { useSelector } from "@/store/hooks";
+import {useSelector} from "@/store/hooks";
 import Link from "next/link";
-import { styled } from "@mui/material";
-import { AppState } from "@/store/store";
+import {styled} from "@mui/material";
+import {AppState} from "@/store/store";
 import Image from "next/image";
 
 const Logo = () => {
@@ -16,13 +15,13 @@ const Logo = () => {
 
   if (customizer.activeDir === "ltr") {
     return (
-      <LinkStyled href="/">
+      <LinkStyled href="/"  style={{textAlign: "center",}}>
         {customizer.activeMode === "dark" ? (
           <Image
             src="/images/logos/light-logo.svg"
             alt="logo"
             height={customizer.TopbarHeight}
-            width={174}
+            width={60}
             priority
           />
         ) : (
@@ -30,7 +29,7 @@ const Logo = () => {
             src={"/images/logos/dark-logo.svg"}
             alt="logo"
             height={customizer.TopbarHeight}
-            width={174}
+            width={60}
             priority
           />
         )}
@@ -39,13 +38,13 @@ const Logo = () => {
   }
 
   return (
-    <LinkStyled href="/">
+    <LinkStyled href="/" style={{textAlign: "center",}}>
       {customizer.activeMode === "dark" ? (
         <Image
           src="/images/logos/dark-rtl-logo.svg"
           alt="logo"
           height={customizer.TopbarHeight}
-          width={174}
+          width={60}
           priority
         />
       ) : (
@@ -53,7 +52,7 @@ const Logo = () => {
           src="/images/logos/light-logo-rtl.svg"
           alt="logo"
           height={customizer.TopbarHeight}
-          width={174}
+          width={60}
           priority
         />
       )}

@@ -1,9 +1,9 @@
 "use client";
 import { Grid, Box, Card, Typography, Stack } from '@mui/material';
 import Link from 'next/link';
-import Logo from '@/app/(DashboardLayout)/layout/shared/logo/Logo';
-import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
-import AuthRegister from '../../authForms/AuthRegister';
+import Logo from '@app/(DashboardLayout)/layout/shared/logo/Logo';
+import PageContainer from '@app/(DashboardLayout)/components/container/PageContainer';
+import AuthRegister from '../authForms/AuthRegister';
 
 export default function Register2() {
   return(
