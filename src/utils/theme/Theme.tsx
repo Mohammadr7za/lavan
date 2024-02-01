@@ -1,14 +1,14 @@
 import _ from 'lodash';
-import { createTheme } from '@mui/material/styles';
-import { useSelector } from '@/store/hooks';
-import { useEffect } from 'react';
-import { AppState } from '@/store/store';
+import {createTheme} from '@mui/material/styles';
+import {useSelector} from '@/store/hooks';
+import {useEffect} from 'react';
+import {AppState} from '@/store/store';
 import components from './Components';
 import typography from './Typography';
-import { shadows, darkshadows } from './Shadows';
-import { DarkThemeColors } from './DarkThemeColors';
-import { LightThemeColors } from './LightThemeColors';
-import { baseDarkTheme, baselightTheme } from './DefaultColors';
+import {darkshadows, shadows} from './Shadows';
+import {DarkThemeColors} from './DarkThemeColors';
+import {LightThemeColors} from './LightThemeColors';
+import {baseDarkTheme, baselightTheme} from './DefaultColors';
 import * as locales from '@mui/material/locale';
 
 
