@@ -16,8 +16,8 @@ import {
 } from '@mui/material';
 import { IconCircle, IconMessage2, IconShare, IconThumbUp } from '@tabler/icons-react';
 import uniqueId from 'lodash/uniqueId';
-import { useDispatch, useSelector } from'@/store/hooks';
-import { likePosts, addComment } from '@/store/apps/userProfile/UserProfileSlice';
+import { useDispatch, useSelector } from '@/src/store/hooks';
+import { likePosts, addComment } from '@/src/store/apps/userProfile/UserProfileSlice';
 import PostComments from './PostComments';
 import BlankCard from '../../../shared/BlankCard';
 import { Comment as CommentType, PostType } from '../../../../types/apps/userProfile';

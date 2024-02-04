@@ -1,4 +1,4 @@
-import { useSelector, useDispatch } from '@/store/hooks';
+import { useSelector, useDispatch } from '@/src/store/hooks';
 import {
   ListItemText,
   ListItemButton,
@@ -9,7 +9,7 @@ import {
   Typography,
 } from '@mui/material';
 
-import { setVisibilityFilter } from '@/store/apps/email/EmailSlice';
+import { setVisibilityFilter } from '@/src/store/apps/email/EmailSlice';
 import EmailCompose from './EmailCompose';
 
 import Scrollbar from '../../../components/custom-scroll/Scrollbar';

@@ -6,8 +6,8 @@ import Sidebar from "./layout/vertical/sidebar/Sidebar";
 import Customizer from "./layout/shared/customizer/Customizer";
 import Navigation from "./layout/horizontal/navbar/Navigation";
 import HorizontalHeader from "./layout/horizontal/header/Header";
-import { useSelector } from "@/store/hooks";
-import { AppState } from "@/store/store";
+import { useSelector } from "@/src/store/hooks";
+import { AppState } from "@/src/store/store";
 
 const MainWrapper = styled("div")(() => ({
   display: "flex",

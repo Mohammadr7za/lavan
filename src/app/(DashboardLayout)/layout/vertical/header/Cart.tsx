@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import { sum } from 'lodash';
 import {  IconShoppingCart, IconX } from '@tabler/icons-react';
 import { Box, Typography, Badge, Drawer, IconButton, Button, Stack } from '@mui/material';
-import { useSelector } from '@/store/hooks';
+import { useSelector } from '@/src/store/hooks';
 import Link from 'next/link';
 import CartItems from './CartItem';
-import { AppState } from '@/store/store';
+import { AppState } from '@/src/store/store';
 
 const Cart = () => {
   // Get Products

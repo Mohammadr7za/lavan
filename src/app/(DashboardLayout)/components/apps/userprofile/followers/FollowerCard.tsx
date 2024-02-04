@@ -12,8 +12,8 @@ import {
 } from '@mui/material';
 import React, { useEffect } from 'react';
 import BlankCard from '../../../../components/shared/BlankCard';
-import { useSelector, useDispatch } from'@/store/hooks';
-import { fetchFollwores, onToggleFollow } from '@/store/apps/userProfile/UserProfileSlice';
+import { useSelector, useDispatch } from '@/src/store/hooks';
+import { fetchFollwores, onToggleFollow } from '@/src/store/apps/userProfile/UserProfileSlice';
 import { IconMapPin, IconSearch } from '@tabler/icons-react';
 import { userType } from '../../../../types/apps/users';
 

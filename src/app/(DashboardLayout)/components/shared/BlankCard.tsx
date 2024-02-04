@@ -1,7 +1,7 @@
 import { Card } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
-import { AppState } from '@/store/store';
-import {useSelector} from '@/store/hooks';
+import { AppState } from '@store/store';
+import {useSelector} from '@/src/store/hooks';
 
 type Props = {
   className?: string;

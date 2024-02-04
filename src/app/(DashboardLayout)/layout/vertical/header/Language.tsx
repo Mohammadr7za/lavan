@@ -1,11 +1,11 @@
 // import React from 'react';
 // import { Avatar, IconButton, Menu, MenuItem, Typography } from '@mui/material';
-// import { useSelector, useDispatch } from '@/store/hooks';
-// import { setLanguage } from '@/store/customizer/CustomizerSlice';
+// import { useSelector, useDispatch } from '@/src/store/hooks';
+// import { setLanguage } from '@/src/store/customizer/CustomizerSlice';
 // import { Stack } from '@mui/system';
 // import { useTranslation } from 'react-i18next';
 // import { useEffect } from 'react';
-// import { AppState } from '@/store/store';
+// import { AppState } from '@/src/store/store';
 //
 // const Languages = [
 //   {

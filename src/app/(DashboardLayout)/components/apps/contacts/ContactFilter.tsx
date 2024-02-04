@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "@/store/hooks";
+import { useDispatch, useSelector } from "@/src/store/hooks";
 import {
   ListItemText,
   ListItemButton,
@@ -7,7 +7,7 @@ import {
   ListItemIcon,
   Typography,
 } from "@mui/material";
-import { setVisibilityFilter } from "@/store/apps/contacts/ContactSlice";
+import { setVisibilityFilter } from "@/src/store/apps/contacts/ContactSlice";
 import Scrollbar from "../../../components/custom-scroll/Scrollbar";
 import {
   IconMail,

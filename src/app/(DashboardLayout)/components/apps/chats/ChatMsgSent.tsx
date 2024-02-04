@@ -1,5 +1,5 @@
 import React from "react";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "@/src/store/hooks";
 import { IconButton, InputBase, Box, Popover } from "@mui/material";
 import EmojiPicker, {
   EmojiStyle,
@@ -17,7 +17,7 @@ import {
   IconPhoto,
   IconSend,
 } from "@tabler/icons-react";
-import { sendMsg } from "@/store/apps/chat/ChatSlice";
+import { sendMsg } from "@/src/store/apps/chat/ChatSlice";
 
 const ChatMsgSent = () => {
   const [msg, setMsg] = React.useState<any>("");

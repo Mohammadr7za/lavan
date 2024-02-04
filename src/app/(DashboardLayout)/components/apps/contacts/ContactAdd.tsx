@@ -10,8 +10,8 @@ import {
   DialogContentText,
   Grid,
 } from '@mui/material';
-import { useSelector, useDispatch } from '@/store/hooks';
-import { addContact } from '@/store/apps/contacts/ContactSlice';
+import { useSelector, useDispatch } from '@/src/store/hooks';
+import { addContact } from '@/src/store/apps/contacts/ContactSlice';
 import user1 from '/public/images/profile/user-1.jpg';
 
 const ContactAdd = () => {

@@ -2,17 +2,17 @@
 import React from "react";
 import {ThemeProvider} from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import RTL from "@/app/(DashboardLayout)/layout/shared/customizer/RTL";
-import {ThemeSettings} from "@/utils/theme/Theme";
-import {AppState, store} from "@/store/store";
-import {useSelector} from "@/store/hooks";
+import RTL from "@app/(DashboardLayout)/layout/shared/customizer/RTL";
+import {ThemeSettings} from "@utils/theme/Theme";
+import {AppState, store} from "@/src/store/store";
+import {useSelector} from "@/src/store/hooks";
 import {Provider} from "react-redux";
 import NextTopLoader from 'nextjs-toploader';
 import CircularProgress from "@mui/material/CircularProgress";
 import Box from "@mui/material/Box";
 import "@/app/api/index";
-// import "@/utils/i18n";
-// import createEmotionCache from "@/utils/createEmotionCache";
+// import "@utils/i18n";
+// import createEmotionCache from "@utils/createEmotionCache";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 // const clientSideEmotionCache = createEmotionCache();

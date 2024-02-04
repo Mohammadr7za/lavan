@@ -1,12 +1,12 @@
 import {AppBar, Box, IconButton, Stack, styled, Toolbar, useMediaQuery} from '@mui/material';
-import {useDispatch, useSelector} from '@/store/hooks';
-import {toggleMobileSidebar, toggleSidebar} from '@/store/customizer/CustomizerSlice';
+import {useDispatch, useSelector} from '@/src/store/hooks';
+import {toggleMobileSidebar, toggleSidebar} from '@/src/store/customizer/CustomizerSlice';
 import {IconMenu2} from '@tabler/icons-react';
 import Notifications from './Notification';
 import Profile from './Profile';
 import Search from './Search';
 // import Language from './Language';
-import {AppState} from '@/store/store';
+import {AppState} from '@/src/store/store';
 import MobileRightSidebar from './MobileRightSidebar';
 
 const Header = () => {

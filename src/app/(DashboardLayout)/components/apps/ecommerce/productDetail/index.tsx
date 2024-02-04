@@ -17,12 +17,12 @@ import {
   ButtonGroup,
 } from "@mui/material";
 
-import {  useSelector, useDispatch } from "@/store/hooks";
-import { AppState } from "@/store/store";
+import {  useSelector, useDispatch } from "@/src/store/hooks";
+import { AppState } from "@/src/store/store";
 import {
   fetchProducts,
   addToCart,
-} from "@/store/apps/eCommerce/ECommerceSlice";
+} from "@/src/store/apps/eCommerce/ECommerceSlice";
 import { IconCheck, IconMinus, IconPlus } from "@tabler/icons-react";
 import AlertCart from "../productCart/AlertCart";
 import { ProductType } from "../../../../types/apps/eCommerce";

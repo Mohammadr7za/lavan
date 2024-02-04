@@ -22,8 +22,8 @@ import {
   Paper,
 } from '@mui/material';
 import { visuallyHidden } from '@mui/utils';
-import { useSelector, useDispatch } from '@/store/hooks';
-import { fetchProducts } from '@/store/apps/eCommerce/ECommerceSlice';
+import { useSelector, useDispatch } from '@/src/store/hooks';
+import { fetchProducts } from '@/src/store/apps/eCommerce/ECommerceSlice';
 import CustomCheckbox from '../../../forms/theme-elements/CustomCheckbox';
 import CustomSwitch from '../../../forms/theme-elements/CustomSwitch';
 import { IconDotsVertical, IconFilter, IconSearch, IconTrash } from '@tabler/icons-react';

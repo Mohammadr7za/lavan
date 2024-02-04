@@ -11,7 +11,7 @@ import {
   Tooltip,
   Stack,
 } from "@mui/material";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "@/src/store/hooks";
 import Box, { BoxProps } from "@mui/material/Box";
 import { IconX, IconSettings, IconCheck } from "@tabler/icons-react";
 import {
@@ -23,8 +23,8 @@ import {
   toggleHorizontal,
   setBorderRadius,
   setCardShadow,
-} from "@/store/customizer/CustomizerSlice";
-import { AppState } from "@/store/store";
+} from "@/src/store/customizer/CustomizerSlice";
+import { AppState } from "@/src/store/store";
 import Scrollbar from "@/app/(DashboardLayout)/components/custom-scroll/Scrollbar";
 import WbSunnyTwoToneIcon from "@mui/icons-material/WbSunnyTwoTone";
 import DarkModeTwoToneIcon from "@mui/icons-material/DarkModeTwoTone";

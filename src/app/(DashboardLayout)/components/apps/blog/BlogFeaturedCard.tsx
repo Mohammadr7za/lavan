@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { useDispatch } from '@/store/hooks';
+import { useDispatch } from '@/src/store/hooks';
 import {
   CardContent,
   Stack,
@@ -14,7 +14,7 @@ import {
 } from '@mui/material';
 import { IconEye, IconMessage2, IconPoint } from '@tabler/icons-react';
 import { format } from 'date-fns';
-import { fetchBlogPost } from '@/store/apps/blog/BlogSlice';
+import { fetchBlogPost } from '@/src/store/apps/blog/BlogSlice';
 import BlankCard from '../../shared/BlankCard';
 import { BlogPostType } from '../../../types/apps/blog';
 

@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import { List } from "@mui/material";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "@/src/store/hooks";
 import {
   SelectContact,
   fetchContacts,
   DeleteContact,
   toggleStarredContact,
-} from "@/store/apps/contacts/ContactSlice";
+} from "@/src/store/apps/contacts/ContactSlice";
 
 import Scrollbar from "../../../components/custom-scroll/Scrollbar";
 import ContactListItem from "./ContactListItem";

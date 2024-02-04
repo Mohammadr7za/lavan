@@ -2,18 +2,18 @@
 import { Grid, Box } from '@mui/material';
 import { useEffect, useState } from 'react';
 
-import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
+import PageContainer from '@app/(DashboardLayout)/components/container/PageContainer';
 // components
-import YearlyBreakup from '@/app/(DashboardLayout)/components/dashboards/modern/YearlyBreakup';
-import MonthlyEarnings from '@/app/(DashboardLayout)/components/dashboards/modern/MonthlyEarnings';
-import TopCards from '@/app/(DashboardLayout)/components/dashboards/modern/TopCards';
-import RevenueUpdates from '@/app/(DashboardLayout)/components/dashboards/modern/RevenueUpdates';
-import EmployeeSalary from '@/app/(DashboardLayout)/components/dashboards/modern/EmployeeSalary';
-import Customers from '@/app/(DashboardLayout)/components/dashboards/modern/Customers';
-import Projects from '@/app/(DashboardLayout)/components/dashboards/modern/Projects';
-import Social from '@/app/(DashboardLayout)/components/dashboards/modern/Social';
-import SellingProducts from '@/app/(DashboardLayout)/components/dashboards/modern/SellingProducts';
-import WeeklyStats from '@/app/(DashboardLayout)/components/dashboards/modern/WeeklyStats';
+import YearlyBreakup from '@app/(DashboardLayout)/components/dashboards/modern/YearlyBreakup';
+import MonthlyEarnings from '@app/(DashboardLayout)/components/dashboards/modern/MonthlyEarnings';
+import TopCards from '@app/(DashboardLayout)/components/dashboards/modern/TopCards';
+import RevenueUpdates from '@app/(DashboardLayout)/components/dashboards/modern/RevenueUpdates';
+import EmployeeSalary from '@app/(DashboardLayout)/components/dashboards/modern/EmployeeSalary';
+import Customers from '@app/(DashboardLayout)/components/dashboards/modern/Customers';
+import Projects from '@app/(DashboardLayout)/components/dashboards/modern/Projects';
+import Social from '@app/(DashboardLayout)/components/dashboards/modern/Social';
+import SellingProducts from '@app/(DashboardLayout)/components/dashboards/modern/SellingProducts';
+import WeeklyStats from '@app/(DashboardLayout)/components/dashboards/modern/WeeklyStats';
 import TopPerformers from '@/app/(DashboardLayout)/components/dashboards/modern/TopPerformers';
 
 

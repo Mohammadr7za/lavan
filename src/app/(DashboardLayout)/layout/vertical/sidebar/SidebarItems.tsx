@@ -1,12 +1,12 @@
 import Menuitems from './MenuItems';
 import { usePathname } from "next/navigation";
 import { Box, List, useMediaQuery } from '@mui/material';
-import { useDispatch, useSelector } from '@/store/hooks';
+import { useDispatch, useSelector } from '@/src/store/hooks';
 import NavItem from './NavItem';
 import NavCollapse from './NavCollapse';
 import NavGroup from './NavGroup/NavGroup';
-import { AppState } from '@/store/store'
-import { toggleMobileSidebar } from '@/store/customizer/CustomizerSlice';
+import { AppState } from '@/src/store/store'
+import { toggleMobileSidebar } from '@/src/store/customizer/CustomizerSlice';
 
 
 const SidebarItems = () => {

@@ -8,8 +8,8 @@ import {
   Rating,
   Skeleton,
 } from "@mui/material";
-import { useSelector, useDispatch } from "@/store/hooks";
-import { fetchProducts } from "@/store/apps/eCommerce/ECommerceSlice";
+import { useSelector, useDispatch } from "@/src/store/hooks";
+import { fetchProducts } from "@/src/store/apps/eCommerce/ECommerceSlice";
 import Link from "next/link";
 import BlankCard from "../../../shared/BlankCard";
 import { ProductType } from "../../../../types/apps/eCommerce";

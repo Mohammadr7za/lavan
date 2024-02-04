@@ -8,14 +8,14 @@ import {
   Tooltip,
   Alert,
 } from "@mui/material";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "@/src/store/hooks";
 import Scrollbar from "../../custom-scroll/Scrollbar";
 import {
   fetchNotes,
   SelectNote,
   DeleteNote,
   SearchNotes,
-} from "@/store/apps/notes/NotesSlice";
+} from "@/src/store/apps/notes/NotesSlice";
 import { IconTrash } from "@tabler/icons-react";
 import { NotesType } from "../../../types/apps/notes";
 

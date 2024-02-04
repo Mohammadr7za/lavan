@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 // mui imports
 import { ListItemIcon, ListItem, List, styled, ListItemText, useTheme } from '@mui/material';
-import { useSelector } from '@/store/hooks';
-import { AppState } from '@/store/store';
+import { useSelector } from '@/src/store/hooks';
+import { AppState } from '@/src/store/store';
 
 type NavGroup = {
   [x: string]: any;

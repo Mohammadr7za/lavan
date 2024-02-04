@@ -4,14 +4,14 @@ import { usePathname } from "next/navigation";
 
 // mui imports
 import { ListItemIcon, styled, ListItemText, Box, ListItemButton } from '@mui/material';
-import { useSelector } from '@/store/hooks';
+import { useSelector } from '@/src/store/hooks';
 
 // custom imports
 import NavItem from '../NavItem/NavItem';
 
 // plugins
 import { IconChevronDown } from '@tabler/icons-react';
-import { AppState } from '@/store/store';
+import { AppState } from '@/src/store/store';
 
 type NavGroupProps = {
   [x: string]: any;

@@ -15,13 +15,13 @@ import {
 } from "@mui/material";
 import Link from "next/link";
 import { IconMinus, IconPlus, IconTrash } from "@tabler/icons-react";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "@/src/store/hooks";
 import emptyCart from "/public/images/products/empty-shopping-cart.svg";
 import {
   increment,
   deleteCart,
   decrement,
-} from "@/store/apps/eCommerce/ECommerceSlice";
+} from "@/src/store/apps/eCommerce/ECommerceSlice";
 import { ProductType } from "../../../../types/apps/eCommerce";
 import Image from "next/image";
 

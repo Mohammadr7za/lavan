@@ -1,15 +1,15 @@
 import * as React from 'react';
 import {AppBar, Box, IconButton, Stack, styled, Theme, Toolbar, useMediaQuery,} from '@mui/material';
 
-import {useDispatch, useSelector} from '@/store/hooks';
-import {toggleMobileSidebar} from '@/store/customizer/CustomizerSlice';
+import {useDispatch, useSelector} from '@/src/store/hooks';
+import {toggleMobileSidebar} from '@/src/store/customizer/CustomizerSlice';
 import {IconMenu2} from '@tabler/icons-react';
 import Notifications from '../../vertical/header/Notification';
 import Profile from '../../vertical/header/Profile';
 import Search from '../../vertical/header/Search';
 // import Language from '../../vertical/header/Language';
 import Logo from '../../shared/logo/Logo';
-import {AppState} from '@/store/store';
+import {AppState} from '@/src/store/store';
 
 const Header = () => {
   const lgDown = useMediaQuery((theme: Theme) => theme.breakpoints.down('lg'));
@@ -38,7 +38,7 @@ const Header = () => {
         }}
       >
         <Box sx={{ width: lgDown ? '45px' : 'auto', overflow: 'hidden' }}>
-          <Logo />
+          {/*<Logo />*/}
         </Box>
         {/* ------------------------------------------- */}
         {/* Toggle Button Sidebar */}

@@ -12,8 +12,8 @@ import {
 } from "@mui/material";
 import React, { useEffect } from "react";
 import BlankCard from "../../../../components/shared/BlankCard";
-import { useSelector, useDispatch } from "@/store/hooks";
-import { fetchPhotos } from "@/store/apps/userProfile/UserProfileSlice";
+import { useSelector, useDispatch } from "@/src/store/hooks";
+import { fetchPhotos } from "@/src/store/apps/userProfile/UserProfileSlice";
 import { IconDotsVertical, IconSearch } from "@tabler/icons-react";
 import { format } from "date-fns";
 import { GallaryType } from "../../../../types/apps/users";

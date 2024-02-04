@@ -1,4 +1,4 @@
-import {iranSans} from "@/utils/theme/localFonts.fonts";
+import {iranSans} from "@utils/theme/localFonts.fonts";
 
 const typography: any = {
   fontFamily: iranSans.style.fontFamily,

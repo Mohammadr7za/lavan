@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { useState } from 'react';
-import { useSelector } from '@/store/hooks';
+import { useSelector } from '@/src/store/hooks';
 import { usePathname } from "next/navigation";
 
 // mui imports
@@ -20,7 +20,7 @@ import NavItem from '../NavItem';
 // plugins
 import { IconChevronDown, IconChevronUp } from '@tabler/icons-react';
 // import { useTranslation } from 'react-i18next';
-import { AppState } from '@/store/store';
+import { AppState } from '@/src/store/store';
 
 type NavGroupProps = {
   [x: string]: any;

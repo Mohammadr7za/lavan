@@ -1,8 +1,8 @@
 import React from 'react';
 import { useTheme } from '@mui/material/styles';
 import { Card, CardHeader, CardContent, Divider, Box } from '@mui/material';
-import { useSelector } from '@/store/hooks';
-import { AppState } from '@/store/store';
+import { useSelector } from '@/src/store/hooks';
+import { AppState } from '@/src/store/store';
 
 type Props = {
   title: string;

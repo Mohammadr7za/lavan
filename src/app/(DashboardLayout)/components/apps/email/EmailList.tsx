@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { List } from "@mui/material";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "@/src/store/hooks";
 import EmailListItem from "./EmailListItem";
 import {
   fetchEmails,
@@ -9,7 +9,7 @@ import {
   importantEmail,
   deleteEmail,
   checkEmail,
-} from "@/store/apps/email/EmailSlice";
+} from "@/src/store/apps/email/EmailSlice";
 
 import Scrollbar from "../../../components/custom-scroll/Scrollbar";
 import { EmailType } from "../../../types/apps/email";

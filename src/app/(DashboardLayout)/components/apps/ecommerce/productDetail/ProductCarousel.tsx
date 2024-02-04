@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { Box } from "@mui/material";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "@/src/store/hooks";
 import { useRouter, usePathname, useSearchParams } from "next/navigation";
 
 //Carousel slider for product
@@ -11,7 +11,7 @@ import SliderData from "./SliderData";
 import "./Carousel.css";
 
 //fetch product
-import { fetchProducts } from "@/store/apps/eCommerce/ECommerceSlice";
+import { fetchProducts } from "@/src/store/apps/eCommerce/ECommerceSlice";
 import { ProductType } from "../../../../types/apps/eCommerce";
 import Image from "next/image";
 

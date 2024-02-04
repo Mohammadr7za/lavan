@@ -1,7 +1,7 @@
-import {useSelector} from "@/store/hooks";
+import {useSelector} from "@/src/store/hooks";
 import Link from "next/link";
 import {styled} from "@mui/material";
-import {AppState} from "@/store/store";
+import {AppState} from "@/src/store/store";
 import Image from "next/image";
 
 const Logo = () => {

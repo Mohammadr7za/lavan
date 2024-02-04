@@ -1,10 +1,10 @@
 "use client"
 
-import Breadcrumb from '@/app/(DashboardLayout)/layout/shared/breadcrumb/Breadcrumb';
-import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
-import TicketListing from '@/app/(DashboardLayout)/components/apps/tickets/TicketListing';
-import TicketFilter from '@/app/(DashboardLayout)/components/apps/tickets/TicketFilter';
-import ChildCard from '@/app/(DashboardLayout)/components/shared/ChildCard';
+import Breadcrumb from '@app/(DashboardLayout)/layout/shared/breadcrumb/Breadcrumb';
+import PageContainer from '@app/(DashboardLayout)/components/container/PageContainer';
+import TicketListing from '@app/(DashboardLayout)/components/apps/tickets/TicketListing';
+import TicketFilter from '@app/(DashboardLayout)/components/apps/tickets/TicketFilter';
+import ChildCard from '@app/(DashboardLayout)/components/shared/ChildCard';
 
 const BCrumb = [
   {

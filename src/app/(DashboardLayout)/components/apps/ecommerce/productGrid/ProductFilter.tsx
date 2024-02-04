@@ -1,5 +1,5 @@
 import React from 'react';
-import { useDispatch, useSelector } from '@/store/hooks';
+import { useDispatch, useSelector } from '@/src/store/hooks';
 import {
   ListItemText,
   ListItemButton,
@@ -21,7 +21,7 @@ import {
   sortByColor,
   sortByPrice,
   filterReset,
-} from '@/store/apps/eCommerce/ECommerceSlice';
+} from '@/src/store/apps/eCommerce/ECommerceSlice';
 import { IconCheck } from '@tabler/icons-react';
 import {
   IconHanger,

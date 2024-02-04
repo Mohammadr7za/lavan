@@ -3,7 +3,7 @@
 
 
 import React, { useEffect } from "react";
-import { fetchBlogPosts, fetchBlogPost } from "@/store/apps/blog/BlogSlice";
+import { fetchBlogPosts, fetchBlogPost } from "@/src/store/apps/blog/BlogSlice";
 import { useRouter, usePathname, useSearchParams  } from "next/navigation";
 import {
   CardContent,
@@ -29,10 +29,10 @@ import {
 import { format } from "date-fns";
 import BlogComment from "./BlogComment";
 import { uniqueId } from "lodash";
-import { addComment } from "@/store/apps/blog/BlogSlice";
+import { addComment } from "@/src/store/apps/blog/BlogSlice";
 import BlankCard from "../../../shared/BlankCard";
-import { useDispatch, useSelector } from "@/store/hooks";
-import { AppState } from "@/store/store";
+import { useDispatch, useSelector } from "@/src/store/hooks";
+import { AppState } from "@/src/store/store";
 import type { BlogPostType, BlogType } from "../../../../types/apps/blog";
 
 

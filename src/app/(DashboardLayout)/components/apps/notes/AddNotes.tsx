@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { addNote } from '@/store/apps/notes/NotesSlice';
+import { addNote } from '@/src/store/apps/notes/NotesSlice';
 import {
   Button,
   Dialog,
@@ -10,7 +10,7 @@ import {
   DialogContentText,
   Typography,
 } from '@mui/material';
-import { useSelector, useDispatch } from '@/store/hooks';
+import { useSelector, useDispatch } from '@/src/store/hooks';
 import { IconCheck } from '@tabler/icons-react';
 
 interface Props {

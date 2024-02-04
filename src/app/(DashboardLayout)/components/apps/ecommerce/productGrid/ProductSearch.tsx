@@ -3,8 +3,8 @@ import { TextField, InputAdornment } from '@mui/material';
 import { IconSearch } from '@tabler/icons-react';
 
 // redux
-import { useDispatch } from '@/store/hooks';
-import { SearchProduct } from '@/store/apps/eCommerce/ECommerceSlice';
+import { useDispatch } from '@/src/store/hooks';
+import { SearchProduct } from '@/src/store/apps/eCommerce/ECommerceSlice';
 
 // ----------------------------------------------------------------------
 export default function ProductSearch() {

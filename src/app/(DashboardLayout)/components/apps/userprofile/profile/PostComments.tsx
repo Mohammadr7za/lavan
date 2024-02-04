@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { Stack, Avatar, Box, Typography, Tooltip, Fab, TextField, Button } from '@mui/material';
 import { IconArrowBackUp, IconCircle, IconThumbUp } from '@tabler/icons-react';
 
-import { useDispatch } from'@/store/hooks';
+import { useDispatch } from '@/src/store/hooks';
 import uniqueId from 'lodash/uniqueId';
-import { addReply } from '@/store/apps/userProfile/UserProfileSlice';
+import { addReply } from '@/src/store/apps/userProfile/UserProfileSlice';
 import {
   PostType,
   Comment as CommentType,

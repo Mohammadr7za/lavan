@@ -33,7 +33,7 @@ return (
           justifyContent="center"
           alignItems="center"
         >
-          <Card elevation={9} sx={{ p: 4, zIndex: 1, width: '100%', maxWidth: '450px' }}>
+          <Card elevation={9} sx={{ p: 4, zIndex: 1, width: '100%', maxWidth: '450px', }} style={{backgroundColor: 'red'}}>
             <Box display="flex" alignItems="center" justifyContent="center">
               <Logo />
             </Box>

@@ -3,7 +3,7 @@ import { sum } from 'lodash';
 import { Box, Stack, Button } from '@mui/material';
 import AddToCart from '../productCart/AddToCart';
 import { IconArrowBack } from '@tabler/icons-react';
-import { useSelector } from '@/store/hooks';
+import { useSelector } from '@/src/store/hooks';
 import HorizontalStepper from './HorizontalStepper';
 import FirstStep from './FirstStep';
 import SecondStep from './SecondStep';

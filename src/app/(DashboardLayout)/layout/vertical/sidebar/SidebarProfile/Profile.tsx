@@ -1,7 +1,7 @@
 import { Box, Avatar, Typography, IconButton, Tooltip, useMediaQuery } from '@mui/material';
-import { useSelector } from '@/store/hooks';
+import { useSelector } from '@/src/store/hooks';
 import { IconPower } from '@tabler/icons-react';
-import { AppState } from '@/store/store';
+import { AppState } from '@/src/store/store';
 import Link from 'next/link';
 
 export const Profile = () => {

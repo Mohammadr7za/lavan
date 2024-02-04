@@ -1,7 +1,7 @@
 import React from 'react';
-import { useSelector, useDispatch } from '@/store/hooks';
+import { useSelector, useDispatch } from '@/src/store/hooks';
 import { Box, Fab, TextField, InputAdornment } from '@mui/material';
-import { SearchEmail } from '@/store/apps/email/EmailSlice';
+import { SearchEmail } from '@/src/store/apps/email/EmailSlice';
 import { IconMenu2, IconSearch } from '@tabler/icons-react';
 
 interface Props {

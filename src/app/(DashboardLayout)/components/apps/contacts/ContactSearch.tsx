@@ -1,9 +1,9 @@
 import React from 'react';
-import { AppState } from '@/store/store';
-import { useSelector, useDispatch } from '@/store/hooks';
+import { AppState } from '@/src/store/store';
+import { useSelector, useDispatch } from '@/src/store/hooks';
 import { Box, Fab, TextField, InputAdornment } from '@mui/material';
 
-import { SearchContact } from '@/store/apps/contacts/ContactSlice';
+import { SearchContact } from '@/src/store/apps/contacts/ContactSlice';
 import { IconMenu2, IconSearch } from '@tabler/icons-react';
 
 type Props = {

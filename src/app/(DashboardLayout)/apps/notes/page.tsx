@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from "react";
 import { Box, useMediaQuery, Theme } from "@mui/material";
-import Breadcrumb from '@/app/(DashboardLayout)/layout/shared/breadcrumb/Breadcrumb';
-import PageContainer from '@/app/(DashboardLayout)/components/container/PageContainer';
-import NoteSidebar from '@/app/(DashboardLayout)/components/apps/notes/NoteSidebar';
-import NoteContent from '@/app/(DashboardLayout)/components/apps/notes/NoteContent';
-import AppCard from '@/app/(DashboardLayout)/components/shared/AppCard';
+import Breadcrumb from '@app/(DashboardLayout)/layout/shared/breadcrumb/Breadcrumb';
+import PageContainer from '@app/(DashboardLayout)/components/container/PageContainer';
+import NoteSidebar from '@app/(DashboardLayout)/components/apps/notes/NoteSidebar';
+import NoteContent from '@app/(DashboardLayout)/components/apps/notes/NoteContent';
+import AppCard from '@app/(DashboardLayout)/components/shared/AppCard';
 
 const BCrumb = [
   {

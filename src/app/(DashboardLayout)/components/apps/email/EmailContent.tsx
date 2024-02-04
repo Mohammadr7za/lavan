@@ -15,8 +15,8 @@ import {
 } from '@mui/material';
 import { EmailType } from '../../../types/apps/email';
 import { IconStar, IconAlertCircle, IconTrash } from '@tabler/icons-react';
-import { useSelector, useDispatch } from '@/store/hooks';
-import { starEmail, importantEmail, deleteEmail } from '@/store/apps/email/EmailSlice';
+import { useSelector, useDispatch } from '@/src/store/hooks';
+import { starEmail, importantEmail, deleteEmail } from '@/src/store/apps/email/EmailSlice';
 import emailIcon from '/public/images/breadcrumb/emailSv.png';
 import dynamic from "next/dynamic";
 const ReactQuill = dynamic(import('react-quill'), { ssr: false })

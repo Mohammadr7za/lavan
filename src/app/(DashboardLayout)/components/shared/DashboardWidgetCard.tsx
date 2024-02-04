@@ -1,7 +1,7 @@
 import { useTheme } from '@mui/material/styles';
 import { Card, CardContent, Typography, Box, Stack } from '@mui/material';
-import { useSelector } from '@/store/hooks';
-import { AppState } from '@/store/store';
+import { useSelector } from '@/src/store/hooks';
+import { AppState } from '@/src/store/store';
 import { IconGridDots } from '@tabler/icons-react';
 
 type Props = {

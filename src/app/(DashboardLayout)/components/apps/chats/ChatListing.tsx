@@ -15,13 +15,13 @@ import {
   Menu,
   MenuItem,
 } from "@mui/material";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "@/src/store/hooks";
 import Scrollbar from "../../custom-scroll/Scrollbar";
 import {
   SelectChat,
   fetchChats,
   SearchChat,
-} from "@/store/apps/chat/ChatSlice";
+} from "@/src/store/apps/chat/ChatSlice";
 import { ChatsType } from "../../../types/apps/chat";
 import { last } from "lodash";
 import { formatDistanceToNowStrict } from "date-fns";

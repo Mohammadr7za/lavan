@@ -1,7 +1,7 @@
 import { Box, Grid, Typography, styled } from '@mui/material';
-import { useDispatch, useSelector } from '@/store/hooks';
+import { useDispatch, useSelector } from '@/src/store/hooks';
 import { TicketType } from '../../../types/apps/ticket';
-import { setVisibilityFilter } from '@/store/apps/tickets/TicketSlice';
+import { setVisibilityFilter } from '@/src/store/apps/tickets/TicketSlice';
 
 const BoxStyled = styled(Box)(() => ({
   padding: '30px',

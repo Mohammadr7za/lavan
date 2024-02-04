@@ -1,7 +1,7 @@
 import { Grid } from '@mui/material';
 import { useEffect } from 'react';
-import { useSelector, useDispatch } from'@/store/hooks';
-import { fetchPosts } from '@/store/apps/userProfile/UserProfileSlice';
+import { useSelector, useDispatch } from '@/src/store/hooks';
+import { fetchPosts } from '@/src/store/apps/userProfile/UserProfileSlice';
 import PostItem from './PostItem';
 import { PostTextBox } from './PostTextBox';
 import { PostType } from '../../../../types/apps/userProfile';

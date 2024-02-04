@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useSelector } from '@/store/hooks';
+import { useSelector } from '@/src/store/hooks';
 import {
   ListItemText,
   Box,

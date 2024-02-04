@@ -15,12 +15,12 @@ import {
   Skeleton,
 } from "@mui/material";
 import Link from "next/link";
-import { useSelector, useDispatch } from "@/store/hooks";
+import { useSelector, useDispatch } from "@/src/store/hooks";
 import {
   fetchProducts,
   addToCart,
   filterReset,
-} from "@/store/apps/eCommerce/ECommerceSlice";
+} from "@/src/store/apps/eCommerce/ECommerceSlice";
 import ProductSearch from "./ProductSearch";
 import { IconBasket, IconMenu2 } from "@tabler/icons-react";
 import AlertCart from "../productCart/AlertCart";

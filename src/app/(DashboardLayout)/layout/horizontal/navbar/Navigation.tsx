@@ -1,10 +1,10 @@
 import { useMediaQuery, Box, Drawer, Container, Theme } from '@mui/material';
 import NavListing from './NavListing/NavListing';
 import Logo from '../../shared/logo/Logo';
-import { useSelector, useDispatch } from '@/store/hooks';
-import { toggleMobileSidebar } from '@/store/customizer/CustomizerSlice';
+import { useSelector, useDispatch } from '@/src/store/hooks';
+import { toggleMobileSidebar } from '@/src/store/customizer/CustomizerSlice';
 import SidebarItems from '../../vertical/sidebar/SidebarItems';
-import { AppState } from '@/store/store';
+import { AppState } from '@/src/store/store';
 
 const Navigation = () => {
   const lgUp = useMediaQuery((theme: Theme) => theme.breakpoints.up('lg'));
@@ -46,7 +46,7 @@ const Navigation = () => {
       {/* Logo */}
       {/* ------------------------------------------- */}
       <Box px={2}>
-        <Logo />
+        {/*<Logo />*/}
       </Box>
       {/* ------------------------------------------- */}
       {/* Sidebar For Mobile */}

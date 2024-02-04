@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from '@/store/hooks';
+import { useDispatch, useSelector } from '@/src/store/hooks';
 import { format } from 'date-fns';
 import {
   Box,
@@ -19,7 +19,7 @@ import {
   Pagination,
   useTheme,
 } from '@mui/material';
-import { fetchTickets, DeleteTicket, SearchTicket } from '@/store/apps/tickets/TicketSlice';
+import { fetchTickets, DeleteTicket, SearchTicket } from '@/src/store/apps/tickets/TicketSlice';
 import { IconTrash } from '@tabler/icons-react';
 import { TicketType } from '../../../types/apps/ticket';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSelector, useDispatch } from '@/store/hooks';
+import { useSelector, useDispatch } from '@/src/store/hooks';
 import {
   Box,
   Divider,
@@ -12,7 +12,7 @@ import {
 } from '@mui/material';
 import { IconCheck, IconMenu2 } from '@tabler/icons-react';
 
-import { UpdateNote } from '@/store/apps/notes/NotesSlice';
+import { UpdateNote } from '@/src/store/apps/notes/NotesSlice';
 import AddNotes from './AddNotes';
 import { NotesType } from '../../../types/apps/notes';
 

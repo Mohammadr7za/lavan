@@ -1,4 +1,4 @@
-import { useSelector, useDispatch } from '@/store/hooks';
+import { useSelector, useDispatch } from '@/src/store/hooks';
 import {
   Box,
   Button,
@@ -17,7 +17,7 @@ import {
   UpdateContact,
   DeleteContact,
   toggleStarredContact,
-} from '@/store/apps/contacts/ContactSlice';
+} from '@/src/store/apps/contacts/ContactSlice';
 import BlankCard from '../../shared/BlankCard';
 import { ContactType } from '../../../types/apps/contact';
 import { IconPencil, IconStar, IconTrash, IconDeviceFloppy } from '@tabler/icons-react';

@@ -1,10 +1,10 @@
 import Menudata from '../Menudata';
 import { usePathname } from "next/navigation";
 import { Box, List, Theme, useMediaQuery } from '@mui/material';
-import { useSelector } from '@/store/hooks';
+import { useSelector } from '@/src/store/hooks';
 import NavItem from '../NavItem/NavItem';
 import NavCollapse from '../NavCollapse/NavCollapse';
-import { AppState } from '@/store/store';
+import { AppState } from '@/src/store/store';
 
 const NavListing = () => {
   const pathname  = usePathname();
